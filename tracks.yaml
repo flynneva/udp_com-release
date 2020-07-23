@@ -41,7 +41,7 @@ tracks:
     name: upstream
     patches: null
     release_inc: '1'
-    release_repo_url: null
+    release_repo_url: git@github.com:flynneva/udp_com-release.git
     release_tag: :{version}
     ros_distro: melodic
     vcs_type: git
