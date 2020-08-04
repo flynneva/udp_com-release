@@ -36,7 +36,7 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: ros1-devel
+    devel_branch: ros1/main
     last_version: 0.0.6
     name: upstream
     patches: null
