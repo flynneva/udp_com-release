@@ -1,14 +1,7 @@
-cmake_minimum_required(VERSION 3.10)
-
-if(GIT_VERSION STREQUAL "")
-  message("No version specified...setting to default 0.0.0")
-  set(GIT_VERSION 0.0.0)
-endif()
+cmake_minimum_required(VERSION 3.5)
 
 # Appends the cmake/modules path to MAKE_MODULE_PATH variable.
-project(udp_com
-  VERSION ${GIT_VERSION}
-  DESCRIPTION "A generic ROS package for interfacing with UDP sockets")
+project(udp_com)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++11)
