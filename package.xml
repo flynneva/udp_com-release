@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>udp_com</name>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
 
   <description>The udp_com package</description>
 
@@ -30,6 +30,7 @@
   <exec_depend>message_runtime</exec_depend>
   <exec_depend>message_generation</exec_depend>
 
+  <test_depend>roslint</test_depend>
   <test_depend>rostest</test_depend>
 
   <export>
