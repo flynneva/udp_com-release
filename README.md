@@ -1,3 +1,26 @@
+## udp_com (noetic) - 1.1.1-1
+
+The packages in the `udp_com` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -y --no-web --ros-distro noetic --override-release-repository-push-url https://github.com/flynneva/udp_com-release.git udp_com` on `Fri, 14 Aug 2020 21:19:38 -0000`
+
+The `udp_com` package was released.
+
+Version of package(s) in repository `udp_com`:
+
+- upstream repository: https://github.com/continental/udp_com.git
+- release repository: https://github.com/flynneva/udp_com-release.git
+- rosdistro version: `1.1.0-1`
+- old version: `1.1.0-1`
+- new version: `1.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## udp_com (melodic) - 1.1.1-1
 
 The packages in the `udp_com` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -y --no-web --ros-distro melodic --override-release-repository-push-url https://github.com/flynneva/udp_com-release.git udp_com` on `Fri, 14 Aug 2020 21:16:25 -0000`
