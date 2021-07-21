@@ -1,0 +1,49 @@
+ros-noetic-udp-com (1.1.2-1buster) buster; urgency=high
+
+  * update release ci
+  * update ros1 ci
+  * fix launch file, use namespace arg
+  * add note about future work
+  * remove note about open PRs
+  * added ros buildfarm status to readme
+  * update package description
+  * remove unnecessary step
+  * update doxyfile
+  * add note about releases
+  * fix ubuntu links
+  * update README with other ROS distros
+  * trying a different checkout method
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Wed, 21 Jul 2021 07:00:00 -0000
+
+ros-noetic-udp-com (1.1.1-1buster) buster; urgency=high
+
+  * find rostest once
+  * add roslint to testdepend
+  * add roslint within test conditional
+  * removed roslint dependency
+  * removed find gtest
+  * set vcs repo url
+  * bumped ros ci action
+  * go back to manual ros_ci
+  * added back in setup directories
+  * trying in home directory
+  * removed ros2 target
+  * added ros2 foxy to help with ci
+  * package name incorrect
+  * updated ros ci
+  * updated version for docs
+  * doc not docs
+  * updated docs action
+  * added gitignore
+  * update github release step
+  * create pr to rosdistro
+  * remove docs from non-docs branches
+  * Merge pull request #64 <https://github.com/continental/udp_com/issues/64> from continental/ros1/main
+  * changed remote url
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 14 Aug 2020 07:00:00 -0000
+
+
